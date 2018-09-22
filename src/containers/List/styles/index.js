@@ -1,6 +1,6 @@
 export default {
 	listContainer: {
-		height: "50vh",
+		height: 600,
 		overflow: "auto"
 	},
 	largeContainer: {
@@ -8,18 +8,16 @@ export default {
 		width: 500,
 	},
 	transformContainer: {
-		height: 500,
+		height: 600,
 		width: 500,
 	},
 	canvasContainer: {
-		height: 500,
+		height: 600,
 		width: 500,
 		overflow: "hidden",
 		position: "relative"
 	},
 	canvas: {
-		position: "absolute",
-		height: 500,
-		width: 500
+		position: "absolute"
 	}
 }
